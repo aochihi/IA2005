@@ -14,10 +14,17 @@ A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Ao
 	> ifort stoc1-fft-IA05-distrib.f90 ran1.f fourn-d.f kernel31s_05Avril.f 
 
 ## Input
-	IA05.prm: An integer in the first row, for the number of simulation, should be manually set from "case1-1.mag".
+	IA05.prm: An integer in the first row, for the number of simulation, should be manually set from "case1-1.mag". Choose one number between (1, 16384).
 
-## Output (Be careful, many files are generated on the current directory)
-	XXXXX_stepYZZZ.dat (given simulation number XXXXX, iteration of scale Y(0 to 3), time step ZZZ): X grid, Y grid, slip vel (m/s), slip (m), shear stress (MPa).
+## Notice for Utilisation
+	See Ide and Aochi (2005) for the detail explanation of the given model parameters. 
+	For scale interation (number=Y), grid size is ds=4x4^Y (m), where Y=(0,3); time step is dt=ds/(2xVp), where Vp=6 (km/s).
+	Fault slip is implicitly asigned to the x-direction.
+	The largest Y has an entire process of rupture propagation, while others are intermediate. 
+	The case of Y=0 always exists, however the the initial crack is suddenly given at time=0 and it is visible.
+
+## Outputs (Be careful, many files are generated on the current directory)
+	XXXXX_stepYZZZ.dat (given simulation number XXXXX, iteration of scale Y(0 to 3), time step ZZZ): x-grid, y-grid, slip vel (m/s), slip (m), shear stress (MPa).
 	outputXXXXXi.dat : indicating hypocenter choice.
 	momentXXXXXY.dat: indicating seismic moment releae function at each iteration Y. (time (s), moment rate (N.m/s), moment (N.m), Mw)
 	outputXXXXXf.dat : indicating seismic moment release function (time step, time (s), moment rate (N.m/s), moment (N.m)
