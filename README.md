@@ -26,5 +26,6 @@ A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Ao
 	hoge2.dat: model paramters.
 
 ### References
-	Ide, S. and H. Aochi, Earthquakes as multiscale dynamic ruptures with heterogeneous fracture surface energy, J. Geophys. Res., 110, B11303, doi:10.1029/2004JB003591, 2005. (for theoretical framework)
-	Aochi, H. and A. Burnol, Mechanism of the ML4.0 25th April 2016 earthquake in southwest of France in the vicinity of the Lacq gas field, J. Seismol., 22, 1139-1155, doi: 10.1007/s10950-018-9758-5, 2018. (for an example of application)
+	Ide, S. and H. Aochi (2005). Earthquakes as multiscale dynamic ruptures with heterogeneous fracture surface energy, J. Geophys. Res., 110, B11303, doi:10.1029/2004JB003591. (for theoretical framework)
+	Aochi, H., J. Le Puth and S. Ide (2006). Attempts at using a dynamic rupture source model for ground-motion simulations, Eos Trans. AGU, 87(36), West. Pac. Geophys. Meet. Suppl., Abstract S11E-0160. (first example of ground motion simulation)
+	Aochi, H. and A. Burnol (2018). Mechanism of the ML4.0 25th April 2016 earthquake in southwest of France in the vicinity of the Lacq gas field, J. Seismol., 22, 1139-1155, doi: 10.1007/s10950-018-9758-5. (for an example of application)
