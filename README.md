@@ -1,5 +1,5 @@
 # IA2005
-A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Aochi (JGR, 2005). This provides a single rupture event, set by IA05.prm, among the 16384 possible earthquake scenarios. This code is suitable for understanding the theoretical concept of multi-scale earthquake rupture process by Ide &amp; Aochi (2005) or for utilizing the simulated models for further analyses (i.e. earthquake source statistics, earthquake scenarios for ground motion simulations). Do not hesitate to contact us if you have any idea.  
+A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Aochi (JGR, 2005). The numerical scheme is based on 3D Boundary Integral Equation Method for a planar fault (Fukuyama &amp; Madariaga, 1995; 1998) and a renormalization technique (Aochi &amp; Ide, 2004). This provides a single rupture event, set by IA05.prm, among the 16384 possible earthquake scenarios. This code is suitable for understanding the theoretical concept of multi-scale earthquake rupture process by Ide &amp; Aochi (2005) or for utilizing the simulated models for further analyses (i.e. earthquake source statistics, earthquake scenarios for ground motion simulations). Do not hesitate to contact us if you have any idea.  
 
 ## History
 	26th October 2018: First updated.
@@ -33,6 +33,10 @@ A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Ao
 	hoge2.dat: model paramters.
 
 ### References
-	Ide, S. and H. Aochi (2005). Earthquakes as multiscale dynamic ruptures with heterogeneous fracture surface energy, J. Geophys. Res., 110, B11303, doi:10.1029/2004JB003591. (for theoretical framework)
+	Ide, S. and H. Aochi (2005). Earthquakes as multiscale dynamic ruptures with heterogeneous fracture surface energy, J. Geophys. Res., 110, B11303, doi:10.1029/2004JB003591. (for theoretical framework. All the other references therein.)
+	
+	
+### Applications (please give us your examples of applications).
 	Aochi, H., J. Le Puth and S. Ide (2006). Attempts at using a dynamic rupture source model for ground-motion simulations, Eos Trans. AGU, 87(36), West. Pac. Geophys. Meet. Suppl., Abstract S11E-0160. (first example of ground motion simulation)
+	Rohmer, J. and H. Aochi (2015). Impact of channel-like erosion patterns on the frequency-magnitude distribution of earthquakes, Geophys. J. Int., 202(1), 670-677, doi:10.1093/gji/ggv181
 	Aochi, H. and A. Burnol (2018). Mechanism of the ML4.0 25th April 2016 earthquake in southwest of France in the vicinity of the Lacq gas field, J. Seismol., 22, 1139-1155, doi: 10.1007/s10950-018-9758-5. (for an example of application)
