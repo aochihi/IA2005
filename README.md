@@ -1,5 +1,5 @@
 # IA2005
-A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Aochi (JGR, 2005) 
+A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Aochi (JGR, 2005). This provides a single rupture event, set by IA05.prm. 
 
 ## History
 	26th October 2018: First updated.
@@ -24,3 +24,7 @@ A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Ao
 	outputXXXXXY.dat : intermediate results at the end of each iteration Y.
 	hetero.org: fault heterogeneous map.
 	hoge2.dat: model paramters.
+
+### References
+	Ide, S. and H. Aochi, Earthquakes as multiscale dynamic ruptures with heterogeneous fracture surface energy, J. Geophys. Res., 110, B11303, doi:10.1029/2004JB003591, 2005. (for theoretical framework)
+	Aochi, H. and A. Burnol, Mechanism of the ML4.0 25th April 2016 earthquake in southwest of France in the vicinity of the Lacq gas field, J. Seismol., 22, 1139-1155, doi: 10.1007/s10950-018-9758-5, 2018. (for an example of application)
