@@ -9,6 +9,7 @@ A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Ao
 	ran1.f: subroutine for generating random number
 	fourn-d.f: subroutine for FFT
 	kernel31s_05Avril.f: subroutine for Green's function
+	stoc1-fft-IA05-distrib.exe: executable on Windows, compiled with ifort on Windows10 for Win32 environement. 
 
 ## Compile
 	> ifort stoc1-fft-IA05-distrib.f90 ran1.f fourn-d.f kernel31s_05Avril.f 
