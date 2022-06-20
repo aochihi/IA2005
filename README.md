@@ -1,6 +1,8 @@
 # IA2005
 A simulation code of a multi-scale dynamic rupture propagation from Ide &amp; Aochi (JGR, 2005). The numerical scheme is based on 3D Boundary Integral Equation Method for a planar fault (Fukuyama &amp; Madariaga, 1995; 1998) and a renormalization technique (Aochi &amp; Ide, 2004). This provides a single rupture event, set by IA05.prm, among the 16384 possible earthquake scenarios. This code is suitable for understanding the theoretical concept of multi-scale earthquake rupture process by Ide &amp; Aochi (2005) or for utilizing the simulated models for further analyses (i.e. earthquake source statistics, earthquake scenarios for ground motion simulations). Do not hesitate to contact us if you have any idea.  
 
+https://doi.org/10.5281/zenodo.1472238
+
 ## History
 	26th October 2018: First updated.
 
